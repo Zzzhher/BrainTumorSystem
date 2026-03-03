@@ -1,0 +1,50 @@
+# 依赖包
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 模型文件 - 保留文件夹，排除权重文件
+models/*.pth
+
+# 数据集 - 保留Testing和Training文件夹，但排除所有子文件夹及其内容
+dataset/Testing/**
+dataset/Training/**
+# 重新包含文件夹本身，否则它们也会被忽略
+!dataset/Testing/
+!dataset/Training/
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 构建文件
+build/
+dist/
+*.egg-info/
+
+# 缓存
+.cache/
+.temp/
+
+# 其他
+*.bak
+*.backup

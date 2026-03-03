@@ -1,0 +1,1014 @@
+模型: resnet50
+批量大小: 32
+学习率: 0.001
+训练轮数: 50
+设备: cuda
+--------------------------------------------------
+Epoch [1/50]:
+  Loss: 1.2631
+  Accuracy: 48.70%
+  Precision (macro): 0.4751
+  Recall (macro): 0.4870
+  F1 Score (macro): 0.4760
+  glioma: Precision=0.5070, Recall=0.6296, F1=0.5617
+  meningioma: Precision=0.3741, Recall=0.2642, F1=0.3097
+  no_tumor: Precision=0.4753, Recall=0.4272, F1=0.4499
+  pituitary: Precision=0.5439, Recall=0.6272, F1=0.5826
+测试集评估结果:
+  Loss: 2.0417
+  Accuracy: 39.89%
+  Precision (macro): 0.4747
+  Recall (macro): 0.3983
+  F1 Score (macro): 0.3548
+  glioma: Precision=0.0769, Recall=0.0033, F1=0.0064
+  meningioma: Precision=0.2711, Recall=0.8497, F1=0.4111
+  no_tumor: Precision=0.7624, Recall=0.3802, F1=0.5074
+  pituitary: Precision=0.7883, Recall=0.3600, F1=0.4943
+Epoch [2/50]:
+  Loss: 1.0178
+  Accuracy: 58.52%
+  Precision (macro): 0.5788
+  Recall (macro): 0.5852
+  F1 Score (macro): 0.5724
+  glioma: Precision=0.5847, Recall=0.6815, F1=0.6294
+  meningioma: Precision=0.4962, Recall=0.3185, F1=0.3880
+  no_tumor: Precision=0.6451, Recall=0.5654, F1=0.6026
+  pituitary: Precision=0.5891, Recall=0.7753, F1=0.6695
+测试集评估结果:
+  Loss: 1.1426
+  Accuracy: 44.09%
+  Precision (macro): 0.5578
+  Recall (macro): 0.3988
+  F1 Score (macro): 0.3704
+  glioma: Precision=0.7197, Recall=0.3767, F1=0.4945
+  meningioma: Precision=0.3793, Recall=0.1438, F1=0.2085
+  no_tumor: Precision=0.3866, Recall=0.9383, F1=0.5476
+  pituitary: Precision=0.7455, Recall=0.1367, F1=0.2310
+Epoch [3/50]:
+  Loss: 1.0242
+  Accuracy: 59.32%
+  Precision (macro): 0.5831
+  Recall (macro): 0.5932
+  F1 Score (macro): 0.5780
+  glioma: Precision=0.5974, Recall=0.6889, F1=0.6399
+  meningioma: Precision=0.5185, Recall=0.3111, F1=0.3889
+  no_tumor: Precision=0.5902, Recall=0.5654, F1=0.5776
+  pituitary: Precision=0.6264, Recall=0.8074, F1=0.7055
+测试集评估结果:
+  Loss: 0.8666
+  Accuracy: 64.00%
+  Precision (macro): 0.6366
+  Recall (macro): 0.6199
+  F1 Score (macro): 0.5936
+  glioma: Precision=0.5889, Recall=0.5300, F1=0.5579
+  meningioma: Precision=0.6505, Recall=0.2190, F1=0.3276
+  no_tumor: Precision=0.6534, Recall=0.8938, F1=0.7550
+  pituitary: Precision=0.6536, Recall=0.8367, F1=0.7339
+Epoch [4/50]:
+  Loss: 0.9009
+  Accuracy: 65.19%
+  Precision (macro): 0.6453
+  Recall (macro): 0.6519
+  F1 Score (macro): 0.6431
+  glioma: Precision=0.6333, Recall=0.7037, F1=0.6667
+  meningioma: Precision=0.5684, Recall=0.4000, F1=0.4696
+  no_tumor: Precision=0.7079, Recall=0.7062, F1=0.7070
+  pituitary: Precision=0.6715, Recall=0.7975, F1=0.7291
+测试集评估结果:
+  Loss: 1.9127
+  Accuracy: 35.01%
+  Precision (macro): 0.4952
+  Recall (macro): 0.2949
+  F1 Score (macro): 0.2041
+  glioma: Precision=0.5385, Recall=0.0233, F1=0.0447
+  meningioma: Precision=0.1562, Recall=0.0163, F1=0.0296
+  no_tumor: Precision=0.3314, Recall=1.0000, F1=0.4978
+  pituitary: Precision=0.9545, Recall=0.1400, F1=0.2442
+Epoch [5/50]:
+  Loss: 0.8254
+  Accuracy: 67.53%
+  Precision (macro): 0.6705
+  Recall (macro): 0.6753
+  F1 Score (macro): 0.6668
+  glioma: Precision=0.6346, Recall=0.7333, F1=0.6804
+  meningioma: Precision=0.5979, Recall=0.4148, F1=0.4898
+  no_tumor: Precision=0.7569, Recall=0.7457, F1=0.7512
+  pituitary: Precision=0.6928, Recall=0.8074, F1=0.7457
+测试集评估结果:
+  Loss: 0.8254
+  Accuracy: 66.44%
+  Precision (macro): 0.6684
+  Recall (macro): 0.6696
+  F1 Score (macro): 0.6452
+  glioma: Precision=0.5538, Recall=0.8233, F1=0.6622
+  meningioma: Precision=0.5410, Recall=0.3235, F1=0.4049
+  no_tumor: Precision=0.9004, Recall=0.6247, F1=0.7376
+  pituitary: Precision=0.6783, Recall=0.9067, F1=0.7760
+Epoch [6/50]:
+  Loss: 0.7601
+  Accuracy: 69.57%
+  Precision (macro): 0.6932
+  Recall (macro): 0.6957
+  F1 Score (macro): 0.6917
+  glioma: Precision=0.6407, Recall=0.6691, F1=0.6546
+  meningioma: Precision=0.6261, Recall=0.5086, F1=0.5613
+  no_tumor: Precision=0.8010, Recall=0.7852, F1=0.7930
+  pituitary: Precision=0.7049, Recall=0.8198, F1=0.7580
+测试集评估结果:
+  Loss: 0.9294
+  Accuracy: 64.07%
+  Precision (macro): 0.6956
+  Recall (macro): 0.6187
+  F1 Score (macro): 0.6181
+  glioma: Precision=0.4800, Recall=0.6800, F1=0.5628
+  meningioma: Precision=0.7724, Recall=0.3660, F1=0.4967
+  no_tumor: Precision=0.6536, Recall=0.9086, F1=0.7603
+  pituitary: Precision=0.8764, Recall=0.5200, F1=0.6527
+Epoch [7/50]:
+  Loss: 0.7566
+  Accuracy: 69.14%
+  Precision (macro): 0.6854
+  Recall (macro): 0.6914
+  F1 Score (macro): 0.6836
+  glioma: Precision=0.6462, Recall=0.7259, F1=0.6837
+  meningioma: Precision=0.6020, Recall=0.4370, F1=0.5064
+  no_tumor: Precision=0.7704, Recall=0.7704, F1=0.7704
+  pituitary: Precision=0.7232, Recall=0.8321, F1=0.7738
+测试集评估结果:
+  Loss: 0.6270
+  Accuracy: 74.29%
+  Precision (macro): 0.7507
+  Recall (macro): 0.7327
+  F1 Score (macro): 0.7113
+  glioma: Precision=0.5833, Recall=0.7933, F1=0.6723
+  meningioma: Precision=0.7857, Recall=0.3235, F1=0.4583
+  no_tumor: Precision=0.8818, Recall=0.8840, F1=0.8829
+  pituitary: Precision=0.7520, Recall=0.9300, F1=0.8316
+Epoch [8/50]:
+  Loss: 0.6852
+  Accuracy: 73.46%
+  Precision (macro): 0.7324
+  Recall (macro): 0.7346
+  F1 Score (macro): 0.7277
+  glioma: Precision=0.6797, Recall=0.7753, F1=0.7243
+  meningioma: Precision=0.6817, Recall=0.4864, F1=0.5677
+  no_tumor: Precision=0.8251, Recall=0.8272, F1=0.8261
+  pituitary: Precision=0.7430, Recall=0.8494, F1=0.7926
+测试集评估结果:
+  Loss: 0.7014
+  Accuracy: 71.32%
+  Precision (macro): 0.7345
+  Recall (macro): 0.7039
+  F1 Score (macro): 0.6881
+  glioma: Precision=0.5249, Recall=0.9133, F1=0.6667
+  meningioma: Precision=0.6857, Recall=0.3137, F1=0.4305
+  no_tumor: Precision=0.9069, Recall=0.8420, F1=0.8732
+  pituitary: Precision=0.8205, Recall=0.7467, F1=0.7818
+Epoch [9/50]:
+  Loss: 0.6475
+  Accuracy: 73.70%
+  Precision (macro): 0.7344
+  Recall (macro): 0.7370
+  F1 Score (macro): 0.7330
+  glioma: Precision=0.6957, Recall=0.7679, F1=0.7300
+  meningioma: Precision=0.6595, Recall=0.5309, F1=0.5882
+  no_tumor: Precision=0.8350, Recall=0.8247, F1=0.8298
+  pituitary: Precision=0.7472, Recall=0.8247, F1=0.7840
+测试集评估结果:
+  Loss: 1.1260
+  Accuracy: 59.65%
+  Precision (macro): 0.6928
+  Recall (macro): 0.5644
+  F1 Score (macro): 0.5097
+  glioma: Precision=0.5441, Recall=0.7400, F1=0.6271
+  meningioma: Precision=0.8000, Recall=0.0392, F1=0.0748
+  no_tumor: Precision=0.5589, Recall=0.9951, F1=0.7158
+  pituitary: Precision=0.8683, Recall=0.4833, F1=0.6210
+Epoch [10/50]:
+  Loss: 0.6570
+  Accuracy: 74.44%
+  Precision (macro): 0.7447
+  Recall (macro): 0.7444
+  F1 Score (macro): 0.7381
+  glioma: Precision=0.6723, Recall=0.7802, F1=0.7223
+  meningioma: Precision=0.7193, Recall=0.5062, F1=0.5942
+  no_tumor: Precision=0.8193, Recall=0.8173, F1=0.8183
+  pituitary: Precision=0.7679, Recall=0.8741, F1=0.8176
+测试集评估结果:
+  Loss: 0.7215
+  Accuracy: 71.09%
+  Precision (macro): 0.7453
+  Recall (macro): 0.6921
+  F1 Score (macro): 0.6928
+  glioma: Precision=0.6880, Recall=0.7867, F1=0.7341
+  meningioma: Precision=0.4799, Recall=0.5850, F1=0.5272
+  no_tumor: Precision=0.8344, Recall=0.9333, F1=0.8811
+  pituitary: Precision=0.9789, Recall=0.4633, F1=0.6290
+Epoch [11/50]:
+  Loss: 0.5931
+  Accuracy: 77.35%
+  Precision (macro): 0.7730
+  Recall (macro): 0.7735
+  F1 Score (macro): 0.7719
+  glioma: Precision=0.7166, Recall=0.7556, F1=0.7356
+  meningioma: Precision=0.7107, Recall=0.6247, F1=0.6649
+  no_tumor: Precision=0.8858, Recall=0.8617, F1=0.8736
+  pituitary: Precision=0.7788, Recall=0.8519, F1=0.8137
+测试集评估结果:
+  Loss: 0.7166
+  Accuracy: 71.47%
+  Precision (macro): 0.7371
+  Recall (macro): 0.7134
+  F1 Score (macro): 0.6880
+  glioma: Precision=0.5664, Recall=0.8533, F1=0.6809
+  meningioma: Precision=0.7619, Recall=0.3137, F1=0.4444
+  no_tumor: Precision=0.9271, Recall=0.7531, F1=0.8311
+  pituitary: Precision=0.6931, Recall=0.9333, F1=0.7955
+Epoch [12/50]:
+  Loss: 0.6560
+  Accuracy: 74.20%
+  Precision (macro): 0.7419
+  Recall (macro): 0.7420
+  F1 Score (macro): 0.7376
+  glioma: Precision=0.6616, Recall=0.7531, F1=0.7044
+  meningioma: Precision=0.7129, Recall=0.5333, F1=0.6102
+  no_tumor: Precision=0.8317, Recall=0.8543, F1=0.8429
+  pituitary: Precision=0.7614, Recall=0.8272, F1=0.7929
+测试集评估结果:
+  Loss: 0.5055
+  Accuracy: 79.33%
+  Precision (macro): 0.8091
+  Recall (macro): 0.7851
+  F1 Score (macro): 0.7695
+  glioma: Precision=0.6216, Recall=0.9033, F1=0.7364
+  meningioma: Precision=0.8562, Recall=0.4085, F1=0.5531
+  no_tumor: Precision=0.9608, Recall=0.9086, F1=0.9340
+  pituitary: Precision=0.7977, Recall=0.9200, F1=0.8545
+Epoch [13/50]:
+  Loss: 0.5601
+  Accuracy: 78.89%
+  Precision (macro): 0.7882
+  Recall (macro): 0.7889
+  F1 Score (macro): 0.7850
+  glioma: Precision=0.7489, Recall=0.8321, F1=0.7883
+  meningioma: Precision=0.7406, Recall=0.5852, F1=0.6538
+  no_tumor: Precision=0.8785, Recall=0.8568, F1=0.8675
+  pituitary: Precision=0.7846, Recall=0.8815, F1=0.8302
+测试集评估结果:
+  Loss: 1.0215
+  Accuracy: 65.37%
+  Precision (macro): 0.7141
+  Recall (macro): 0.6289
+  F1 Score (macro): 0.6318
+  glioma: Precision=0.5345, Recall=0.5167, F1=0.5254
+  meningioma: Precision=0.8976, Recall=0.3725, F1=0.5266
+  no_tumor: Precision=0.5929, Recall=0.9531, F1=0.7311
+  pituitary: Precision=0.8313, Recall=0.6733, F1=0.7440
+Epoch [14/50]:
+  Loss: 0.5313
+  Accuracy: 78.70%
+  Precision (macro): 0.7852
+  Recall (macro): 0.7870
+  F1 Score (macro): 0.7838
+  glioma: Precision=0.7400, Recall=0.8222, F1=0.7789
+  meningioma: Precision=0.7194, Recall=0.5951, F1=0.6514
+  no_tumor: Precision=0.8700, Recall=0.8593, F1=0.8646
+  pituitary: Precision=0.8115, Recall=0.8716, F1=0.8405
+测试集评估结果:
+  Loss: 1.6520
+  Accuracy: 44.93%
+  Precision (macro): 0.4766
+  Recall (macro): 0.4440
+  F1 Score (macro): 0.3713
+  glioma: Precision=0.3202, Recall=1.0000, F1=0.4850
+  meningioma: Precision=0.0000, Recall=0.0000, F1=0.0000
+  no_tumor: Precision=0.7587, Recall=0.5358, F1=0.6281
+  pituitary: Precision=0.8276, Recall=0.2400, F1=0.3721
+Epoch [15/50]:
+  Loss: 0.5586
+  Accuracy: 79.69%
+  Precision (macro): 0.7958
+  Recall (macro): 0.7969
+  F1 Score (macro): 0.7923
+  glioma: Precision=0.7528, Recall=0.8346, F1=0.7916
+  meningioma: Precision=0.7670, Recall=0.5852, F1=0.6639
+  no_tumor: Precision=0.8654, Recall=0.8889, F1=0.8770
+  pituitary: Precision=0.7982, Recall=0.8790, F1=0.8367
+测试集评估结果:
+  Loss: 0.6936
+  Accuracy: 73.99%
+  Precision (macro): 0.7486
+  Recall (macro): 0.7200
+  F1 Score (macro): 0.7052
+  glioma: Precision=0.7667, Recall=0.5367, F1=0.6314
+  meningioma: Precision=0.7628, Recall=0.3889, F1=0.5152
+  no_tumor: Precision=0.7194, Recall=0.9877, F1=0.8325
+  pituitary: Precision=0.7455, Recall=0.9667, F1=0.8418
+Epoch [16/50]:
+  Loss: 0.4938
+  Accuracy: 80.62%
+  Precision (macro): 0.8044
+  Recall (macro): 0.8062
+  F1 Score (macro): 0.8043
+  glioma: Precision=0.7646, Recall=0.8099, F1=0.7866
+  meningioma: Precision=0.7278, Recall=0.6469, F1=0.6850
+  no_tumor: Precision=0.8875, Recall=0.8765, F1=0.8820
+  pituitary: Precision=0.8376, Recall=0.8914, F1=0.8636
+测试集评估结果:
+  Loss: 0.9133
+  Accuracy: 63.16%
+  Precision (macro): 0.6818
+  Recall (macro): 0.6063
+  F1 Score (macro): 0.5538
+  glioma: Precision=0.5219, Recall=0.8333, F1=0.6418
+  meningioma: Precision=0.6538, Recall=0.0556, F1=0.1024
+  no_tumor: Precision=0.6256, Recall=0.9531, F1=0.7554
+  pituitary: Precision=0.9259, Recall=0.5833, F1=0.7157
+Epoch [17/50]:
+  Loss: 0.4885
+  Accuracy: 81.11%
+  Precision (macro): 0.8108
+  Recall (macro): 0.8111
+  F1 Score (macro): 0.8086
+  glioma: Precision=0.7709, Recall=0.8642, F1=0.8149
+  meningioma: Precision=0.7640, Recall=0.6395, F1=0.6962
+  no_tumor: Precision=0.8883, Recall=0.8642, F1=0.8761
+  pituitary: Precision=0.8199, Recall=0.8765, F1=0.8473
+测试集评估结果:
+  Loss: 0.5406
+  Accuracy: 76.13%
+  Precision (macro): 0.8121
+  Recall (macro): 0.7511
+  F1 Score (macro): 0.7218
+  glioma: Precision=0.5607, Recall=1.0000, F1=0.7186
+  meningioma: Precision=0.8851, Recall=0.2516, F1=0.3919
+  no_tumor: Precision=0.9017, Recall=0.9062, F1=0.9039
+  pituitary: Precision=0.9007, Recall=0.8467, F1=0.8729
+Epoch [18/50]:
+  Loss: 0.4856
+  Accuracy: 81.60%
+  Precision (macro): 0.8145
+  Recall (macro): 0.8160
+  F1 Score (macro): 0.8136
+  glioma: Precision=0.7910, Recall=0.8222, F1=0.8063
+  meningioma: Precision=0.7710, Recall=0.6568, F1=0.7093
+  no_tumor: Precision=0.8802, Recall=0.8889, F1=0.8845
+  pituitary: Precision=0.8157, Recall=0.8963, F1=0.8541
+测试集评估结果:
+  Loss: 0.4837
+  Accuracy: 81.46%
+  Precision (macro): 0.8311
+  Recall (macro): 0.8143
+  F1 Score (macro): 0.8094
+  glioma: Precision=0.6521, Recall=0.9933, F1=0.7873
+  meningioma: Precision=0.7755, Recall=0.6209, F1=0.6897
+  no_tumor: Precision=0.9796, Recall=0.8296, F1=0.8984
+  pituitary: Precision=0.9173, Recall=0.8133, F1=0.8622
+Epoch [19/50]:
+  Loss: 0.4518
+  Accuracy: 83.46%
+  Precision (macro): 0.8332
+  Recall (macro): 0.8346
+  F1 Score (macro): 0.8324
+  glioma: Precision=0.8333, Recall=0.8765, F1=0.8544
+  meningioma: Precision=0.7880, Recall=0.6790, F1=0.7294
+  no_tumor: Precision=0.8943, Recall=0.8988, F1=0.8966
+  pituitary: Precision=0.8174, Recall=0.8840, F1=0.8493
+测试集评估结果:
+  Loss: 0.4477
+  Accuracy: 81.62%
+  Precision (macro): 0.8325
+  Recall (macro): 0.8038
+  F1 Score (macro): 0.7898
+  glioma: Precision=0.7270, Recall=0.9233, F1=0.8135
+  meningioma: Precision=0.9353, Recall=0.4248, F1=0.5843
+  no_tumor: Precision=0.8593, Recall=0.9802, F1=0.9158
+  pituitary: Precision=0.8085, Recall=0.8867, F1=0.8458
+Epoch [20/50]:
+  Loss: 0.4502
+  Accuracy: 82.90%
+  Precision (macro): 0.8277
+  Recall (macro): 0.8290
+  F1 Score (macro): 0.8273
+  glioma: Precision=0.8041, Recall=0.8716, F1=0.8365
+  meningioma: Precision=0.7639, Recall=0.6790, F1=0.7190
+  no_tumor: Precision=0.8925, Recall=0.8815, F1=0.8870
+  pituitary: Precision=0.8504, Recall=0.8840, F1=0.8668
+测试集评估结果:
+  Loss: 0.7722
+  Accuracy: 72.85%
+  Precision (macro): 0.8246
+  Recall (macro): 0.7103
+  F1 Score (macro): 0.6492
+  glioma: Precision=0.5448, Recall=0.9933, F1=0.7037
+  meningioma: Precision=1.0000, Recall=0.0784, F1=0.1455
+  no_tumor: Precision=0.8090, Recall=0.9728, F1=0.8834
+  pituitary: Precision=0.9447, Recall=0.7967, F1=0.8644
+Epoch [21/50]:
+  Loss: 0.3994
+  Accuracy: 84.20%
+  Precision (macro): 0.8402
+  Recall (macro): 0.8420
+  F1 Score (macro): 0.8402
+  glioma: Precision=0.8122, Recall=0.8543, F1=0.8327
+  meningioma: Precision=0.7877, Recall=0.6963, F1=0.7392
+  no_tumor: Precision=0.8988, Recall=0.9210, F1=0.9098
+  pituitary: Precision=0.8622, Recall=0.8963, F1=0.8789
+测试集评估结果:
+  Loss: 0.5194
+  Accuracy: 77.80%
+  Precision (macro): 0.8229
+  Recall (macro): 0.7729
+  F1 Score (macro): 0.7728
+  glioma: Precision=0.5695, Recall=0.9833, F1=0.7213
+  meningioma: Precision=0.7879, Recall=0.5948, F1=0.6778
+  no_tumor: Precision=0.9635, Recall=0.8469, F1=0.9014
+  pituitary: Precision=0.9709, Recall=0.6667, F1=0.7905
+Epoch [22/50]:
+  Loss: 0.5496
+  Accuracy: 78.89%
+  Precision (macro): 0.7884
+  Recall (macro): 0.7889
+  F1 Score (macro): 0.7868
+  glioma: Precision=0.7434, Recall=0.8296, F1=0.7841
+  meningioma: Precision=0.7320, Recall=0.6272, F1=0.6755
+  no_tumor: Precision=0.8622, Recall=0.8346, F1=0.8482
+  pituitary: Precision=0.8159, Recall=0.8642, F1=0.8393
+测试集评估结果:
+  Loss: 0.6080
+  Accuracy: 77.12%
+  Precision (macro): 0.8222
+  Recall (macro): 0.7560
+  F1 Score (macro): 0.7456
+  glioma: Precision=0.5682, Recall=1.0000, F1=0.7246
+  meningioma: Precision=0.8652, Recall=0.3987, F1=0.5459
+  no_tumor: Precision=0.8989, Recall=0.9654, F1=0.9310
+  pituitary: Precision=0.9565, Recall=0.6600, F1=0.7811
+Epoch [23/50]:
+  Loss: 0.4240
+  Accuracy: 83.77%
+  Precision (macro): 0.8363
+  Recall (macro): 0.8377
+  F1 Score (macro): 0.8348
+  glioma: Precision=0.8005, Recall=0.8716, F1=0.8345
+  meningioma: Precision=0.7953, Recall=0.6617, F1=0.7224
+  no_tumor: Precision=0.8938, Recall=0.8938, F1=0.8938
+  pituitary: Precision=0.8558, Recall=0.9235, F1=0.8884
+测试集评估结果:
+  Loss: 0.3967
+  Accuracy: 82.23%
+  Precision (macro): 0.8598
+  Recall (macro): 0.8108
+  F1 Score (macro): 0.7953
+  glioma: Precision=0.6637, Recall=0.9867, F1=0.7936
+  meningioma: Precision=0.9756, Recall=0.3922, F1=0.5594
+  no_tumor: Precision=0.8665, Recall=0.9778, F1=0.9188
+  pituitary: Precision=0.9333, Recall=0.8867, F1=0.9094
+Epoch [24/50]:
+  Loss: 0.4312
+  Accuracy: 83.27%
+  Precision (macro): 0.8310
+  Recall (macro): 0.8327
+  F1 Score (macro): 0.8309
+  glioma: Precision=0.8165, Recall=0.8568, F1=0.8361
+  meningioma: Precision=0.7772, Recall=0.6889, F1=0.7304
+  no_tumor: Precision=0.8765, Recall=0.8765, F1=0.8765
+  pituitary: Precision=0.8538, Recall=0.9086, F1=0.8804
+测试集评估结果:
+  Loss: 0.5189
+  Accuracy: 79.71%
+  Precision (macro): 0.8461
+  Recall (macro): 0.7813
+  F1 Score (macro): 0.7794
+  glioma: Precision=0.7053, Recall=0.8933, F1=0.7882
+  meningioma: Precision=0.9786, Recall=0.4477, F1=0.6143
+  no_tumor: Precision=0.7413, Recall=0.9975, F1=0.8505
+  pituitary: Precision=0.9593, Recall=0.7867, F1=0.8645
+Epoch [25/50]:
+  Loss: 0.3722
+  Accuracy: 86.17%
+  Precision (macro): 0.8618
+  Recall (macro): 0.8617
+  F1 Score (macro): 0.8605
+  glioma: Precision=0.8260, Recall=0.8790, F1=0.8517
+  meningioma: Precision=0.8455, Recall=0.7432, F1=0.7911
+  no_tumor: Precision=0.9109, Recall=0.9086, F1=0.9098
+  pituitary: Precision=0.8648, Recall=0.9160, F1=0.8897
+测试集评估结果:
+  Loss: 0.2891
+  Accuracy: 89.78%
+  Precision (macro): 0.8916
+  Recall (macro): 0.8919
+  F1 Score (macro): 0.8916
+  glioma: Precision=0.8618, Recall=0.8733, F1=0.8675
+  meningioma: Precision=0.8339, Recall=0.8039, F1=0.8186
+  no_tumor: Precision=0.9656, Recall=0.9704, F1=0.9680
+  pituitary: Precision=0.9049, Recall=0.9200, F1=0.9124
+Epoch [26/50]:
+  Loss: 0.3626
+  Accuracy: 86.73%
+  Precision (macro): 0.8664
+  Recall (macro): 0.8673
+  F1 Score (macro): 0.8659
+  glioma: Precision=0.8657, Recall=0.8914, F1=0.8783
+  meningioma: Precision=0.8214, Recall=0.7383, F1=0.7776
+  no_tumor: Precision=0.9175, Recall=0.9062, F1=0.9118
+  pituitary: Precision=0.8610, Recall=0.9333, F1=0.8957
+测试集评估结果:
+  Loss: 0.4046
+  Accuracy: 83.60%
+  Precision (macro): 0.8535
+  Recall (macro): 0.8281
+  F1 Score (macro): 0.8196
+  glioma: Precision=0.6643, Recall=0.9233, F1=0.7727
+  meningioma: Precision=0.9277, Recall=0.5033, F1=0.6525
+  no_tumor: Precision=0.9296, Recall=0.9457, F1=0.9376
+  pituitary: Precision=0.8924, Recall=0.9400, F1=0.9156
+Epoch [27/50]:
+  Loss: 0.3349
+  Accuracy: 87.96%
+  Precision (macro): 0.8782
+  Recall (macro): 0.8796
+  F1 Score (macro): 0.8783
+  glioma: Precision=0.8657, Recall=0.8914, F1=0.8783
+  meningioma: Precision=0.8315, Recall=0.7556, F1=0.7917
+  no_tumor: Precision=0.9233, Recall=0.9506, F1=0.9367
+  pituitary: Precision=0.8923, Recall=0.9210, F1=0.9064
+测试集评估结果:
+  Loss: 0.4314
+  Accuracy: 81.54%
+  Precision (macro): 0.8611
+  Recall (macro): 0.8035
+  F1 Score (macro): 0.7984
+  glioma: Precision=0.6086, Recall=0.9900, F1=0.7538
+  meningioma: Precision=0.9608, Recall=0.4804, F1=0.6405
+  no_tumor: Precision=0.9204, Recall=0.9704, F1=0.9447
+  pituitary: Precision=0.9547, Recall=0.7733, F1=0.8545
+Epoch [28/50]:
+  Loss: 0.3547
+  Accuracy: 87.41%
+  Precision (macro): 0.8741
+  Recall (macro): 0.8741
+  F1 Score (macro): 0.8736
+  glioma: Precision=0.8456, Recall=0.8790, F1=0.8620
+  meningioma: Precision=0.8462, Recall=0.7877, F1=0.8159
+  no_tumor: Precision=0.9325, Recall=0.9210, F1=0.9267
+  pituitary: Precision=0.8720, Recall=0.9086, F1=0.8900
+测试集评估结果:
+  Loss: 0.4410
+  Accuracy: 82.38%
+  Precision (macro): 0.8467
+  Recall (macro): 0.8099
+  F1 Score (macro): 0.8177
+  glioma: Precision=0.8855, Recall=0.7733, F1=0.8256
+  meningioma: Precision=0.9132, Recall=0.6536, F1=0.7619
+  no_tumor: Precision=0.7486, Recall=0.9926, F1=0.8535
+  pituitary: Precision=0.8396, Recall=0.8200, F1=0.8297
+Epoch [29/50]:
+  Loss: 0.3683
+  Accuracy: 85.80%
+  Precision (macro): 0.8572
+  Recall (macro): 0.8580
+  F1 Score (macro): 0.8569
+  glioma: Precision=0.8294, Recall=0.8765, F1=0.8523
+  meningioma: Precision=0.8076, Recall=0.7358, F1=0.7700
+  no_tumor: Precision=0.9077, Recall=0.8988, F1=0.9032
+  pituitary: Precision=0.8839, Recall=0.9210, F1=0.9021
+测试集评估结果:
+  Loss: 0.3255
+  Accuracy: 88.33%
+  Precision (macro): 0.8831
+  Recall (macro): 0.8783
+  F1 Score (macro): 0.8766
+  glioma: Precision=0.9432, Recall=0.8300, F1=0.8830
+  meningioma: Precision=0.8333, Recall=0.7516, F1=0.7904
+  no_tumor: Precision=0.9648, Recall=0.9481, F1=0.9564
+  pituitary: Precision=0.7909, Recall=0.9833, F1=0.8767
+Epoch [30/50]:
+  Loss: 0.3331
+  Accuracy: 86.79%
+  Precision (macro): 0.8671
+  Recall (macro): 0.8679
+  F1 Score (macro): 0.8664
+  glioma: Precision=0.8508, Recall=0.9012, F1=0.8753
+  meningioma: Precision=0.8399, Recall=0.7383, F1=0.7858
+  no_tumor: Precision=0.9075, Recall=0.9210, F1=0.9142
+  pituitary: Precision=0.8703, Recall=0.9111, F1=0.8902
+测试集评估结果:
+  Loss: 0.3285
+  Accuracy: 88.94%
+  Precision (macro): 0.8875
+  Recall (macro): 0.8859
+  F1 Score (macro): 0.8858
+  glioma: Precision=0.8359, Recall=0.9167, F1=0.8744
+  meningioma: Precision=0.8214, Recall=0.8268, F1=0.8241
+  no_tumor: Precision=0.9474, Recall=0.9333, F1=0.9403
+  pituitary: Precision=0.9455, Recall=0.8667, F1=0.9043
+Epoch [31/50]:
+  Loss: 0.3597
+  Accuracy: 86.91%
+  Precision (macro): 0.8698
+  Recall (macro): 0.8691
+  F1 Score (macro): 0.8683
+  glioma: Precision=0.8218, Recall=0.8765, F1=0.8483
+  meningioma: Precision=0.8607, Recall=0.7630, F1=0.8089
+  no_tumor: Precision=0.9250, Recall=0.9136, F1=0.9193
+  pituitary: Precision=0.8718, Recall=0.9235, F1=0.8969
+测试集评估结果:
+  Loss: 0.4484
+  Accuracy: 83.07%
+  Precision (macro): 0.8546
+  Recall (macro): 0.8164
+  F1 Score (macro): 0.8198
+  glioma: Precision=0.9670, Recall=0.5867, F1=0.7303
+  meningioma: Precision=0.7096, Recall=0.8464, F1=0.7720
+  no_tumor: Precision=0.8187, Recall=0.9926, F1=0.8973
+  pituitary: Precision=0.9231, Recall=0.8400, F1=0.8796
+Epoch [32/50]:
+  Loss: 0.3467
+  Accuracy: 86.11%
+  Precision (macro): 0.8601
+  Recall (macro): 0.8611
+  F1 Score (macro): 0.8603
+  glioma: Precision=0.8554, Recall=0.8765, F1=0.8659
+  meningioma: Precision=0.8016, Recall=0.7481, F1=0.7739
+  no_tumor: Precision=0.9261, Recall=0.9284, F1=0.9273
+  pituitary: Precision=0.8575, Recall=0.8914, F1=0.8741
+测试集评估结果:
+  Loss: 0.2411
+  Accuracy: 90.62%
+  Precision (macro): 0.9140
+  Recall (macro): 0.9003
+  F1 Score (macro): 0.9004
+  glioma: Precision=0.7647, Recall=0.9967, F1=0.8654
+  meningioma: Precision=0.9305, Recall=0.7876, F1=0.8531
+  no_tumor: Precision=0.9802, Recall=0.9802, F1=0.9802
+  pituitary: Precision=0.9805, Recall=0.8367, F1=0.9029
+Epoch [33/50]:
+  Loss: 0.2856
+  Accuracy: 89.75%
+  Precision (macro): 0.8974
+  Recall (macro): 0.8975
+  F1 Score (macro): 0.8970
+  glioma: Precision=0.8786, Recall=0.9111, F1=0.8945
+  meningioma: Precision=0.8700, Recall=0.8099, F1=0.8389
+  no_tumor: Precision=0.9475, Recall=0.9358, F1=0.9416
+  pituitary: Precision=0.8936, Recall=0.9333, F1=0.9130
+测试集评估结果:
+  Loss: 0.3301
+  Accuracy: 86.73%
+  Precision (macro): 0.8804
+  Recall (macro): 0.8581
+  F1 Score (macro): 0.8462
+  glioma: Precision=0.8171, Recall=0.9533, F1=0.8800
+  meningioma: Precision=0.9809, Recall=0.5033, F1=0.6652
+  no_tumor: Precision=0.9199, Recall=0.9926, F1=0.9549
+  pituitary: Precision=0.8038, Recall=0.9833, F1=0.8846
+Epoch [34/50]:
+  Loss: 0.3125
+  Accuracy: 88.64%
+  Precision (macro): 0.8860
+  Recall (macro): 0.8864
+  F1 Score (macro): 0.8858
+  glioma: Precision=0.8768, Recall=0.8963, F1=0.8864
+  meningioma: Precision=0.8373, Recall=0.7877, F1=0.8117
+  no_tumor: Precision=0.9474, Recall=0.9333, F1=0.9403
+  pituitary: Precision=0.8826, Recall=0.9284, F1=0.9049
+测试集评估结果:
+  Loss: 0.2895
+  Accuracy: 87.72%
+  Precision (macro): 0.8901
+  Recall (macro): 0.8697
+  F1 Score (macro): 0.8685
+  glioma: Precision=0.7129, Recall=0.9767, F1=0.8242
+  meningioma: Precision=0.9220, Recall=0.6569, F1=0.7672
+  no_tumor: Precision=0.9587, Recall=0.9753, F1=0.9670
+  pituitary: Precision=0.9667, Recall=0.8700, F1=0.9158
+Epoch [35/50]:
+  Loss: 0.2979
+  Accuracy: 89.01%
+  Precision (macro): 0.8898
+  Recall (macro): 0.8901
+  F1 Score (macro): 0.8890
+  glioma: Precision=0.8706, Recall=0.9136, F1=0.8916
+  meningioma: Precision=0.8646, Recall=0.7728, F1=0.8162
+  no_tumor: Precision=0.9404, Recall=0.9358, F1=0.9381
+  pituitary: Precision=0.8837, Recall=0.9383, F1=0.9102
+测试集评估结果:
+  Loss: 0.2161
+  Accuracy: 92.52%
+  Precision (macro): 0.9212
+  Recall (macro): 0.9211
+  F1 Score (macro): 0.9204
+  glioma: Precision=0.8903, Recall=0.9467, F1=0.9176
+  meningioma: Precision=0.9101, Recall=0.8268, F1=0.8664
+  no_tumor: Precision=0.9754, Recall=0.9778, F1=0.9766
+  pituitary: Precision=0.9091, Recall=0.9333, F1=0.9211
+Epoch [36/50]:
+  Loss: 0.3255
+  Accuracy: 88.02%
+  Precision (macro): 0.8802
+  Recall (macro): 0.8802
+  F1 Score (macro): 0.8797
+  glioma: Precision=0.8684, Recall=0.8963, F1=0.8821
+  meningioma: Precision=0.8342, Recall=0.7827, F1=0.8076
+  no_tumor: Precision=0.9440, Recall=0.9160, F1=0.9298
+  pituitary: Precision=0.8741, Recall=0.9259, F1=0.8993
+测试集评估结果:
+  Loss: 0.6691
+  Accuracy: 73.68%
+  Precision (macro): 0.8277
+  Recall (macro): 0.7232
+  F1 Score (macro): 0.6990
+  glioma: Precision=0.5338, Recall=1.0000, F1=0.6961
+  meningioma: Precision=0.9615, Recall=0.2451, F1=0.3906
+  no_tumor: Precision=0.8289, Recall=0.9210, F1=0.8725
+  pituitary: Precision=0.9864, Recall=0.7267, F1=0.8369
+Epoch [37/50]:
+  Loss: 0.3087
+  Accuracy: 88.70%
+  Precision (macro): 0.8868
+  Recall (macro): 0.8870
+  F1 Score (macro): 0.8865
+  glioma: Precision=0.8668, Recall=0.9160, F1=0.8908
+  meningioma: Precision=0.8478, Recall=0.7975, F1=0.8219
+  no_tumor: Precision=0.9298, Recall=0.9160, F1=0.9229
+  pituitary: Precision=0.9029, Recall=0.9185, F1=0.9106
+测试集评估结果:
+  Loss: 0.2469
+  Accuracy: 90.24%
+  Precision (macro): 0.9100
+  Recall (macro): 0.8974
+  F1 Score (macro): 0.8970
+  glioma: Precision=0.7656, Recall=0.9800, F1=0.8596
+  meningioma: Precision=0.9542, Recall=0.7484, F1=0.8388
+  no_tumor: Precision=0.9631, Recall=0.9679, F1=0.9655
+  pituitary: Precision=0.9571, Recall=0.8933, F1=0.9241
+Epoch [38/50]:
+  Loss: 0.2666
+  Accuracy: 90.74%
+  Precision (macro): 0.9076
+  Recall (macro): 0.9074
+  F1 Score (macro): 0.9067
+  glioma: Precision=0.8765, Recall=0.9284, F1=0.9017
+  meningioma: Precision=0.8989, Recall=0.8123, F1=0.8534
+  no_tumor: Precision=0.9584, Recall=0.9679, F1=0.9631
+  pituitary: Precision=0.8966, Recall=0.9210, F1=0.9086
+测试集评估结果:
+  Loss: 0.2799
+  Accuracy: 90.77%
+  Precision (macro): 0.9088
+  Recall (macro): 0.9051
+  F1 Score (macro): 0.9048
+  glioma: Precision=0.8689, Recall=0.9500, F1=0.9076
+  meningioma: Precision=0.8278, Recall=0.8954, F1=0.8603
+  no_tumor: Precision=0.9620, Recall=0.9383, F1=0.9500
+  pituitary: Precision=0.9767, Recall=0.8367, F1=0.9013
+Epoch [39/50]:
+  Loss: 0.2609
+  Accuracy: 90.68%
+  Precision (macro): 0.9064
+  Recall (macro): 0.9068
+  F1 Score (macro): 0.9060
+  glioma: Precision=0.8863, Recall=0.9235, F1=0.9045
+  meningioma: Precision=0.8868, Recall=0.8123, F1=0.8479
+  no_tumor: Precision=0.9363, Recall=0.9432, F1=0.9397
+  pituitary: Precision=0.9165, Recall=0.9481, F1=0.9320
+测试集评估结果:
+  Loss: 0.2312
+  Accuracy: 90.69%
+  Precision (macro): 0.9095
+  Recall (macro): 0.9047
+  F1 Score (macro): 0.9035
+  glioma: Precision=0.7951, Recall=0.9833, F1=0.8793
+  meningioma: Precision=0.8953, Recall=0.8105, F1=0.8508
+  no_tumor: Precision=0.9769, Recall=0.9383, F1=0.9572
+  pituitary: Precision=0.9708, Recall=0.8867, F1=0.9268
+Epoch [40/50]:
+  Loss: 0.2779
+  Accuracy: 89.81%
+  Precision (macro): 0.8975
+  Recall (macro): 0.8981
+  F1 Score (macro): 0.8973
+  glioma: Precision=0.8921, Recall=0.9185, F1=0.9051
+  meningioma: Precision=0.8706, Recall=0.7975, F1=0.8325
+  no_tumor: Precision=0.9293, Recall=0.9407, F1=0.9350
+  pituitary: Precision=0.8981, Recall=0.9358, F1=0.9166
+测试集评估结果:
+  Loss: 1.0601
+  Accuracy: 67.58%
+  Precision (macro): 0.8055
+  Recall (macro): 0.6479
+  F1 Score (macro): 0.6614
+  glioma: Precision=0.9333, Recall=0.4667, F1=0.6222
+  meningioma: Precision=0.7865, Recall=0.7222, F1=0.7530
+  no_tumor: Precision=0.5339, Recall=0.9926, F1=0.6943
+  pituitary: Precision=0.9685, Recall=0.4100, F1=0.5761
+Epoch [41/50]:
+  Loss: 0.2512
+  Accuracy: 90.86%
+  Precision (macro): 0.9086
+  Recall (macro): 0.9086
+  F1 Score (macro): 0.9085
+  glioma: Precision=0.9024, Recall=0.9358, F1=0.9188
+  meningioma: Precision=0.8543, Recall=0.8395, F1=0.8468
+  no_tumor: Precision=0.9502, Recall=0.9432, F1=0.9467
+  pituitary: Precision=0.9275, Recall=0.9160, F1=0.9217
+测试集评估结果:
+  Loss: 0.3144
+  Accuracy: 87.64%
+  Precision (macro): 0.8976
+  Recall (macro): 0.8695
+  F1 Score (macro): 0.8707
+  glioma: Precision=0.6835, Recall=0.9933, F1=0.8098
+  meningioma: Precision=0.9274, Recall=0.7516, F1=0.8303
+  no_tumor: Precision=0.9924, Recall=0.9630, F1=0.9774
+  pituitary: Precision=0.9872, Recall=0.7700, F1=0.8652
+Epoch [42/50]:
+  Loss: 0.2595
+  Accuracy: 90.19%
+  Precision (macro): 0.9016
+  Recall (macro): 0.9019
+  F1 Score (macro): 0.9014
+  glioma: Precision=0.8968, Recall=0.9012, F1=0.8990
+  meningioma: Precision=0.8701, Recall=0.8272, F1=0.8481
+  no_tumor: Precision=0.9377, Recall=0.9284, F1=0.9330
+  pituitary: Precision=0.9016, Recall=0.9506, F1=0.9255
+测试集评估结果:
+  Loss: 0.2278
+  Accuracy: 92.52%
+  Precision (macro): 0.9247
+  Recall (macro): 0.9238
+  F1 Score (macro): 0.9226
+  glioma: Precision=0.8694, Recall=0.9767, F1=0.9199
+  meningioma: Precision=0.8648, Recall=0.8987, F1=0.8814
+  no_tumor: Precision=0.9871, Recall=0.9432, F1=0.9646
+  pituitary: Precision=0.9777, Recall=0.8767, F1=0.9244
+Epoch [43/50]:
+  Loss: 0.2439
+  Accuracy: 90.43%
+  Precision (macro): 0.9040
+  Recall (macro): 0.9043
+  F1 Score (macro): 0.9040
+  glioma: Precision=0.8867, Recall=0.9086, F1=0.8976
+  meningioma: Precision=0.8682, Recall=0.8296, F1=0.8485
+  no_tumor: Precision=0.9504, Recall=0.9457, F1=0.9480
+  pituitary: Precision=0.9108, Recall=0.9333, F1=0.9220
+测试集评估结果:
+  Loss: 0.2411
+  Accuracy: 90.54%
+  Precision (macro): 0.9094
+  Recall (macro): 0.9035
+  F1 Score (macro): 0.8990
+  glioma: Precision=0.7973, Recall=0.9967, F1=0.8859
+  meningioma: Precision=0.9565, Recall=0.7190, F1=0.8209
+  no_tumor: Precision=0.9922, Recall=0.9383, F1=0.9645
+  pituitary: Precision=0.8916, Recall=0.9600, F1=0.9246
+Epoch [44/50]:
+  Loss: 0.2639
+  Accuracy: 90.74%
+  Precision (macro): 0.9074
+  Recall (macro): 0.9074
+  F1 Score (macro): 0.9070
+  glioma: Precision=0.8881, Recall=0.9210, F1=0.9042
+  meningioma: Precision=0.8939, Recall=0.8321, F1=0.8619
+  no_tumor: Precision=0.9480, Recall=0.9457, F1=0.9468
+  pituitary: Precision=0.8998, Recall=0.9309, F1=0.9150
+测试集评估结果:
+  Loss: 0.2019
+  Accuracy: 93.82%
+  Precision (macro): 0.9359
+  Recall (macro): 0.9343
+  F1 Score (macro): 0.9345
+  glioma: Precision=0.9500, Recall=0.8867, F1=0.9172
+  meningioma: Precision=0.9130, Recall=0.8922, F1=0.9025
+  no_tumor: Precision=0.9708, Recall=0.9852, F1=0.9779
+  pituitary: Precision=0.9097, Recall=0.9733, F1=0.9404
+Epoch [45/50]:
+  Loss: 0.2460
+  Accuracy: 90.80%
+  Precision (macro): 0.9079
+  Recall (macro): 0.9080
+  F1 Score (macro): 0.9076
+  glioma: Precision=0.8779, Recall=0.9235, F1=0.9001
+  meningioma: Precision=0.8836, Recall=0.8247, F1=0.8531
+  no_tumor: Precision=0.9485, Recall=0.9556, F1=0.9520
+  pituitary: Precision=0.9216, Recall=0.9284, F1=0.9250
+测试集评估结果:
+  Loss: 0.2081
+  Accuracy: 92.75%
+  Precision (macro): 0.9290
+  Recall (macro): 0.9222
+  F1 Score (macro): 0.9220
+  glioma: Precision=0.8592, Recall=0.9767, F1=0.9142
+  meningioma: Precision=0.9553, Recall=0.7680, F1=0.8514
+  no_tumor: Precision=0.9484, Recall=0.9975, F1=0.9723
+  pituitary: Precision=0.9530, Recall=0.9467, F1=0.9498
+Epoch [46/50]:
+  Loss: 0.2625
+  Accuracy: 90.56%
+  Precision (macro): 0.9052
+  Recall (macro): 0.9056
+  F1 Score (macro): 0.9053
+  glioma: Precision=0.9080, Recall=0.9012, F1=0.9046
+  meningioma: Precision=0.8636, Recall=0.8444, F1=0.8539
+  no_tumor: Precision=0.9294, Recall=0.9432, F1=0.9363
+  pituitary: Precision=0.9197, Recall=0.9333, F1=0.9265
+测试集评估结果:
+  Loss: 5.9491
+  Accuracy: 40.66%
+  Precision (macro): 0.5582
+  Recall (macro): 0.3561
+  F1 Score (macro): 0.2965
+  glioma: Precision=0.0000, Recall=0.0000, F1=0.0000
+  meningioma: Precision=0.9537, Recall=0.3366, F1=0.4976
+  no_tumor: Precision=0.3416, Recall=0.9877, F1=0.5076
+  pituitary: Precision=0.9375, Recall=0.1000, F1=0.1807
+Epoch [47/50]:
+  Loss: 0.2607
+  Accuracy: 90.74%
+  Precision (macro): 0.9074
+  Recall (macro): 0.9074
+  F1 Score (macro): 0.9072
+  glioma: Precision=0.8856, Recall=0.8988, F1=0.8922
+  meningioma: Precision=0.8889, Recall=0.8494, F1=0.8687
+  no_tumor: Precision=0.9502, Recall=0.9432, F1=0.9467
+  pituitary: Precision=0.9048, Recall=0.9383, F1=0.9212
+测试集评估结果:
+  Loss: 0.1675
+  Accuracy: 93.75%
+  Precision (macro): 0.9369
+  Recall (macro): 0.9338
+  F1 Score (macro): 0.9324
+  glioma: Precision=0.9000, Recall=0.9600, F1=0.9290
+  meningioma: Precision=0.9680, Recall=0.7908, F1=0.8705
+  no_tumor: Precision=0.9709, Recall=0.9877, F1=0.9792
+  pituitary: Precision=0.9088, Recall=0.9967, F1=0.9507
+Epoch [48/50]:
+  Loss: 0.2203
+  Accuracy: 92.28%
+  Precision (macro): 0.9229
+  Recall (macro): 0.9228
+  F1 Score (macro): 0.9226
+  glioma: Precision=0.8998, Recall=0.9309, F1=0.9150
+  meningioma: Precision=0.9034, Recall=0.8543, F1=0.8782
+  no_tumor: Precision=0.9676, Recall=0.9580, F1=0.9628
+  pituitary: Precision=0.9209, Recall=0.9481, F1=0.9343
+测试集评估结果:
+  Loss: 0.1695
+  Accuracy: 94.66%
+  Precision (macro): 0.9462
+  Recall (macro): 0.9486
+  F1 Score (macro): 0.9465
+  glioma: Precision=0.9660, Recall=0.9467, F1=0.9562
+  meningioma: Precision=0.8661, Recall=0.9510, F1=0.9065
+  no_tumor: Precision=0.9920, Recall=0.9235, F1=0.9565
+  pituitary: Precision=0.9605, Recall=0.9733, F1=0.9669
+Epoch [49/50]:
+  Loss: 0.1840
+  Accuracy: 93.95%
+  Precision (macro): 0.9393
+  Recall (macro): 0.9395
+  F1 Score (macro): 0.9393
+  glioma: Precision=0.9338, Recall=0.9407, F1=0.9373
+  meningioma: Precision=0.9089, Recall=0.8864, F1=0.8975
+  no_tumor: Precision=0.9677, Recall=0.9605, F1=0.9641
+  pituitary: Precision=0.9470, Recall=0.9704, F1=0.9585
+测试集评估结果:
+  Loss: 0.1992
+  Accuracy: 91.69%
+  Precision (macro): 0.9225
+  Recall (macro): 0.9150
+  F1 Score (macro): 0.9128
+  glioma: Precision=0.8371, Recall=0.9933, F1=0.9085
+  meningioma: Precision=0.9827, Recall=0.7418, F1=0.8454
+  no_tumor: Precision=0.9343, Recall=0.9481, F1=0.9412
+  pituitary: Precision=0.9361, Recall=0.9767, F1=0.9560
+Epoch [50/50]:
+  Loss: 0.2380
+  Accuracy: 91.73%
+  Precision (macro): 0.9173
+  Recall (macro): 0.9173
+  F1 Score (macro): 0.9170
+  glioma: Precision=0.8863, Recall=0.9235, F1=0.9045
+  meningioma: Precision=0.9029, Recall=0.8494, F1=0.8753
+  no_tumor: Precision=0.9506, Recall=0.9506, F1=0.9506
+  pituitary: Precision=0.9296, Recall=0.9457, F1=0.9376
+测试集评估结果:
+  Loss: 0.2677
+  Accuracy: 91.15%
+  Precision (macro): 0.9161
+  Recall (macro): 0.9134
+  F1 Score (macro): 0.9109
+  glioma: Precision=0.9885, Recall=0.8600, F1=0.9198
+  meningioma: Precision=0.7899, Recall=0.9216, F1=0.8507
+  no_tumor: Precision=1.0000, Recall=0.8889, F1=0.9412
+  pituitary: Precision=0.8859, Recall=0.9833, F1=0.9321
+--------------------------------------------------
+训练完成!
+最佳准确率: 94.66%
+最终测试集准确率: 91.15%
+最终测试集F1分数: 0.9109
+训练时间: 1973.08秒
+混淆矩阵已保存到: results\confusion_matrix_resnet50.png
+训练指标图表已保存到: results\training_metrics_resnet50.png

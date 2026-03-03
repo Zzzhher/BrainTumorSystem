@@ -1,0 +1,28 @@
+# 系统配置
+paths:
+  dataset_path: "dataset/Testing"
+  model_save_path: "models"
+  log_path: "results/logs"
+  result_path: "results"
+
+model:
+  available_models:
+    - resnet50
+    - resnet34
+    - efficientnet_b0
+    - efficientnet_b1
+  default_model: resnet50
+
+training:
+  batch_size: 32
+  num_epochs: 50
+  learning_rate: 0.001
+
+inference:
+  input_size: [224, 224]
+
+classes:
+  - glioma
+  - meningioma
+  - no_tumor
+  - pituitary

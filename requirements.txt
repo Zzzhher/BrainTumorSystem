@@ -1,0 +1,10 @@
+torch==2.9.1+cu130
+ torchvision==0.24.1+cu130
+ Pillow==12.0.0
+ matplotlib==3.9.2
+ pyqt5==5.15.11
+ opencv-python==4.13.0.92
+ pyyaml==6.0.3
+ tqdm==4.67.1
+ scikit-learn==1.7.2
+ numpy==2.2.6
